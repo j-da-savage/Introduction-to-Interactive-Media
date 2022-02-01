@@ -4,9 +4,9 @@
 
 <!-- [Self-Portrait](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/self-portrait%20p5.png)
  -->
-When I first read the instructions for this assignment, drawing a self-portrait, I immediately thought back to [something I drew](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Self-Portrait/self-portrait%20original.jpg) when I was around 7 years old. I was told to draw myself while representing what I love, and so, my 7 year old self decided to draw my face and replace my nose with pizza, my mouth with a watermelon, my hair with bacon, etc… . Since my knowledge in p5.js is still limited and since the elements of my drawing are not too complicated, I decided to recreate the drawing from 2010 on the p5 editor in a creative way.
+When I first read the instructions for this assignment, drawing a self-portrait, I immediately thought back to something I drew when I was around 7 years old. ![](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Self-Portrait/self-portrait%20original.jpg) I was told to draw myself while representing what I love, and so, my 7 year old self decided to draw my face and replace my nose with pizza, my mouth with a watermelon, my hair with bacon, etc… . Since my knowledge in p5.js is still limited and since the elements of my drawing are not too complicated, I decided to recreate the drawing from 2010 on the p5 editor in a creative way.
 
-The whole process took me about 4 hours as I faced some difficulties while working. For instance, drawing wavy lines (for the hair) was a really challenging task. I first looked up the code for curved lines and tried to recreate it, but since it was my first time using this function, I was not satisfied with [the end result](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Self-Portrait/curved%20line%20attempt.png).
+The whole process took me about 4 hours as I faced some difficulties while working. For instance, drawing wavy lines (for the hair) was a really challenging task. I first looked up the code for curved lines and tried to recreate it, but since it was my first time using this function, I was not satisfied with the end result. ![](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Self-Portrait/curved%20line%20attempt.png)
 
 So, I decided to use ellipses instead, but that process took very long, since I had to code every circle separately while changing its proportions. However, I’m certain that over time, and as my skill set in p5 widens, I’ll learn more efficient ways of doing these tasks.
 
@@ -14,6 +14,6 @@ As for the rest of the drawing, it consists of basic shapes like rectangles, tri
 
 All in all, I enjoyed creating this drawing and practicing my p5 skills in the meantime.
 
-[Comparison image](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Self-Portrait/comparison%20self%20portrait.jpg)
+Here's a comparison image of the two drawings!![](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Self-Portrait/comparison%20self%20portrait.jpg)
 
 
