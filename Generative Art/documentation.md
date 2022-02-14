@@ -2,7 +2,7 @@
 [Link to the Art Work](https://editor.p5js.org/j-da-savage/full/rt_Abp72g)
 
 
-[Link to the code](https:/editor.p5js.org/j-da-savage/sketches/rt_Abp72g)
+[Link to the code](https://editor.p5js.org/j-da-savage/sketches/rt_Abp72g)
 
 My inspiration for this project came when I was practicing the codes done in class, and decided to change the car examples to snowmen. To practice creating classes and using them, I coded two snowmen racing, but then decided to make them fall (I changed the x-axis to y-axis). 
 
