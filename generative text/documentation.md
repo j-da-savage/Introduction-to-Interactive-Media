@@ -20,6 +20,6 @@ So, with inspiration from that code, I made my art piece.
 
 One of the difficulties I ran into was trying to get the text to fir on screen how i want it.
 
-![Attempt](https://github.com/j-da-savage/Introduction-to-Interactive-Media)
+![Attempt](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/generative%20text/attempt.jpg)
 
-Finally, I had the idea of getting the hearts to make the shape of a heart when the mouse is pressed, but i unfortunately wasn't able to figure out the code forr it after many attempts.
+Finally, I had the idea of getting the hearts to make the shape of a heart when the mouse is pressed, but i unfortunately wasn't able to figure out the code for it after many attempts.
