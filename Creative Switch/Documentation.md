@@ -22,10 +22,10 @@ So, I first made sure that the metal on the riq was a conductive material, then 
 
 I was really happy with the finished product that I went ahead and added more LEDs to bring out the festive vibe in this project. 
 
-I did face some difficulties triying to figure out the wiring of the two other LEDs, but I eventually figured it out my using resistors and color coded wires. 
+I did face some difficulties trying to figure out the wiring of the two other LEDs, but I eventually figured it out using resistors and color coded wires. 
 
 ![switch](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Creative%20Switch/switch%20pic.png)
 ![closeup](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Creative%20Switch/close%20up.png)
 
-Thank you :)
+Thank you :)💃🏼
 
