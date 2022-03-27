@@ -18,7 +18,7 @@ That's when I came across my رق, aka: Riq.
 
 A Riq is an instrument played accross Arab countries, but is especially an Egyptian staple, it is used in almost all festivities and occasions and symbolises joy and excitement. I love my red Riq very much and as soon as my eyes layed on its metal "jingles", I knew that I had to use it for this assignment. 
 
-So, I first made sure that the metal on the riq was a conductive material, then I attached long pieces of foil to each of my wires connected to the LED. I then attached each wire to the frame around the jngle (the frame that the jingle hits when the instrument is played). I tried playing the Riq and it worked!
+So, I first made sure that the metal on the riq was a conductive material, then I attached long pieces of foil to each of my wires connected to the LED. I then attached each wire to the walls around the jingle (the frame that the jingle hits when the instrument is played). I tried playing the Riq and it worked!
 
 I was really happy with the finished product that I went ahead and added more LEDs to bring out the festive vibe in this project. 
 
