@@ -4,7 +4,7 @@ My goal with this assignment was to truly undertsand the functioning of the basi
 
 I first re-did the circuit done in class and tried to move some wires around to understand what each one did. Then, I moved on to the switch part of the circuit and recreated the circuit that was gonna be the base for my assignment.
 
-![Circuit 1](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Creative%20Switch/experiment.jpg)
+![Circuit 1](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Creative%20Switch/experiment.png)
 
 I then took a piece of alimunium foil and started playing around with the wires to gain a deeper understanding of how the circuit worked, and the sensitivity of the wires... .
 
