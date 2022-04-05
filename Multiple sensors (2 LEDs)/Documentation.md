@@ -69,7 +69,7 @@ void loop() {
   
 }
 ```
-At this stage, the switch was also working, but there was still no inout being recieved by the photoresistor. I then did some research and looked at previous examples from class, and then realized that if I wanted the switch and photoresistor to work simultaneously (aka: digitalWrite + analogWrite), I needed to use an if-statement where one of the conditions would use digitalWrite (when switch is off), and the other would use analogWrite (when the switch is on). I made these changes and it worked!
+At this stage, the switch was also working, but there was still no input being recieved by the photoresistor. I then did some research and looked at previous examples from class, and then realized that if I wanted the switch and photoresistor to work simultaneously (aka: digitalWrite + analogWrite), I needed to use an if-statement where one of the conditions would use digitalWrite (when switch is off), and the other would use analogWrite (when the switch is on). I made these changes and it worked!
 
 I then added an LED that would be controlled using only digitalWrite (so ON or OFF), and added the code for it in the if-statement.
 
