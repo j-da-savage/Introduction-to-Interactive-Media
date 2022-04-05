@@ -32,7 +32,9 @@ Next, I tested out my circuit with a button, but the LED did not seem to turn on
 
 ![Circuit 2](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Multiple%20sensors%20(2%20LEDs)/attempt%20at%20button%20.png)
 
-The code I used for that was the same as the previous one but with the addition of the code for the button.
+The code I used for that was the same as the previous one but with the addition of the code for the button:
+
+![struggle](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Multiple%20sensors%20(2%20LEDs)/attempt%20at%20code.png)
 
 That's when I decided to use a switch instead of a button, in order to keep the mode "ON". I used the following code for it, with the addition of the photoresistor code:
 
@@ -63,4 +65,10 @@ void loop() {
   
 }
 ```
-At this stage, the switch was also working, but there was still no inout being recieved by the photoresistor. I then did some research and looked at previous examples from class, and then realized that if I wanted the switch and photoresistor to work simultaneously (aka: digitalWrite + analogWrite), I needed to use an if statement where one of the conditions would use digitalWrite (when switch is off), and the other would use analogWrite (when the switch is on). I made these changes and it worked!
+At this stage, the switch was also working, but there was still no inout being recieved by the photoresistor. I then did some research and looked at previous examples from class, and then realized that if I wanted the switch and photoresistor to work simultaneously (aka: digitalWrite + analogWrite), I needed to use an if-statement where one of the conditions would use digitalWrite (when switch is off), and the other would use analogWrite (when the switch is on). I made these changes and it worked!
+
+I then added an LED that would be controlled using only digitalWrite (so ON or OFF), and added the code for it in the if-statement.
+
+![added LED](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Multiple%20sensors%20(2%20LEDs)/attempt%20at%20switch.png)
+
+Finally, I connected the aluminum pieces to the pages of my book, and made sure they turned on and off the green LED (as I was doing continuously at every step). I fixed my code 
