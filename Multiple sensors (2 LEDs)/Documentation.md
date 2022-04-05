@@ -2,6 +2,10 @@
 
 With this assignment, I personally felt a bit limited in terms of the cicuit I was going to create, especially since I only had a photoresistor as my analog input source. So, I wanted to be as creative as possible and put my circuit to good use and make it useful.
 
+Brainstorming process:
+
+![brainstorm](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Multiple%20sensors%20(2%20LEDs)/brainstorming.png)
+
 To gain a better understanding of the circuits previously done in class, I first recreated the photoresistor circuit with one LED. I also wanted to test out a possible digital input by using the same method of the aluminium switch from my last homework:
 
 ![Circuit 1](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Multiple%20sensors%20(2%20LEDs)/attempt%20at%20photoresistor%20circuit%20.png)
@@ -71,4 +75,56 @@ I then added an LED that would be controlled using only digitalWrite (so ON or O
 
 ![added LED](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Multiple%20sensors%20(2%20LEDs)/attempt%20at%20switch.png)
 
-Finally, I connected the aluminum pieces to the pages of my book, and made sure they turned on and off the green LED (as I was doing continuously at every step). I fixed my code 
+Finally, I connected the aluminum pieces to the pages of my book, and made sure they turned on and off the green LED (as I was doing continuously at every step). I fixed my code and checked if it was working.
+
+My final code:
+
+```
+const int LED_1 = 7; //yellow LED
+const int LED_2 = 6; //green LED
+const int SWITCH_PIN = 3; //switch
+const int POT = A1; //photoresistor
+
+int switchState = 0;
+
+void setup() {
+  //setting pin modes; two outputs and an input
+  pinMode(LED_1, OUTPUT); 
+  pinMode(LED_2, OUTPUT);
+  pinMode(SWITCH_PIN, INPUT);
+  
+}
+
+void loop() {
+
+   // read the state of the switch value:
+  int switchValue = digitalRead(SWITCH_PIN);
+
+  // check if the switch is on. If it is, the switchValue is HIGH:
+  if(switchValue == HIGH) {
+    
+    digitalWrite(LED_1, HIGH); //turn on yellow LED
+
+    //read analog values coming from the photoresistor
+    int potValue = analogRead(A1);
+    int ledValue = -potValue/2;
+    
+    analogWrite(LED_2, ledValue); //light up green LED accroding to ledValue
+      
+  } else {
+    //turn both LEDs off
+    digitalWrite(LED_1, LOW);
+    digitalWrite(LED_2, LOW);
+
+  }
+  
+
+
+}
+```
+
+Picture of final circuit:
+![final circuit](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Multiple%20sensors%20(2%20LEDs)/pic%20of%20circuit.png)
+
+
+
