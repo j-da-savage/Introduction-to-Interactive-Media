@@ -13,5 +13,6 @@ Next, we had to figure out how to we were going to wire up the accelerometer and
 
 Some of the websites that were really helpful during this process:
 [To understand how the accelerometer works](https://lastminuteengineers.com/adxl335-accelerometer-arduino-tutorial/)
+
 [For the code/wiring](https://forum.arduino.cc/t/mma8452-accelerometer-not-working-arduino-uno-cheese-cake-for-the-best-answer/493668)
 
