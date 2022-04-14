@@ -1,4 +1,4 @@
-Link to video]()
+[Link to video](https://drive.google.com/file/d/18_NgovwbAKv7W_LThACd1o48hPwp8XBT/view?usp=sharing)
 
 For this musical instrument assignment, we wanted to explore different and unique types of sensors we haven't seen in class yet. We looked around in the IM Lab and thought of all the different ways we could use the sensors available to us. Some of our options were:
 - infrared sensor
@@ -19,8 +19,8 @@ Some of the websites that were really helpful during this process:
 
 *insert mathematical explanation for how we used the accelerometer*
 
-*pic of accelerometer wiring*
-*pic of accelerometer code*
+![pic of accelerometer wiring](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Musical%20Instrument/testing%20wiring%20for%20accelerometer.jpg)
+![pic of accelerometer code](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Musical%20Instrument/accelerometer%20code%20working.jpg)
 
 Then, we wanted to add another sensor that could have other functions than the accelerometer and give us access to more notes, but that we could also use simultaneously with the accelerometer. That’s when we decided that a force sensor would be perfect for this job.
 
@@ -32,6 +32,7 @@ void setup() {
   Serial.begin(9600);
 }
 
+```
 void loop() {
   int analogReading = analogRead(FORCE_SENSOR_PIN);
 
@@ -51,12 +52,13 @@ void loop() {
 
   delay(1000);
 }
+```
 
 We ended up removing all the different options of ‘squeezes’ and only keeping one. That way, there were only two possible inputs: squeeze or no squeeze.
 
 After that, we connected the piezo buzzer alone and wanted to test out a few things with it, like its volume and the melodies it can play, before adding it to the accelerometer circuit.
 
-*insert pic of circuit without potentiometer*
+![insert pic of circuit without potentiometer](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Musical%20Instrument/circuit%20without%20potentiometer%20and%20switch.jpg)
 
 
 We tested out the melody using tone() function code that we did in class and ended up using the library used there in our final code:
@@ -71,9 +73,7 @@ https://create.arduino.cc/projecthub/connornishijima/tone-with-8-bit-volume-cont
 
 https://create.arduino.cc/projecthub/glennedi/dc-piezo-buzzer-volume-control-4a230b
 
-
-
-*insert pic of us trying codes*
+![speaker trying](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Musical%20Instrument/testing%20out%20volume%20code%20with%20a%20speaker.jpg)
 
 
 After many attempts, we ended up using a potentiometer (no code needed) to control the volume of the piezo buzzer.
@@ -84,4 +84,6 @@ Future improvements:
 - Adding more force sensors and creating an array of different notes
 - Using an LCD screen to display which notes are playing
 -Creating a hand glove or a type of asing to facilitate playing the instrument
+
+![done :)](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Musical%20Instrument/done.jpg)
 
