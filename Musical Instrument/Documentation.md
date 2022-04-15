@@ -7,7 +7,7 @@ For this musical instrument assignment, we wanted to explore different and uniqu
 - force resistor
 - accelerometer
 
-We ended up using an accelerometer as our primary sensor. 
+We ended up using an accelerometer as our primary sensor, because of the freedom of motion it would allow us.
 
 Next, we had to figure out how we were going to wire up the accelerometer and what code could we potentially use. After thorough research trying to find the type of accelerometer we had and trying to find the wiring/code for it, we decided to use the orientation function of the accelerometer for our instrument. 
 
