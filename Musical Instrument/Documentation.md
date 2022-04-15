@@ -17,7 +17,7 @@ Some of the websites that were really helpful during this process:
 
 [For the code/wiring](https://forum.arduino.cc/t/mma8452-accelerometer-not-working-arduino-uno-cheese-cake-for-the-best-answer/493668)
 
-*insert mathematical explanation for how we used the accelerometer*
+The accelerometer works by measuring the static or dynamic forces acting on the body using a sensor. The values that show up while our instrument was still were measurements of the static force of gravity. When we picked up the instrument, the values showed significant changes due to the dynamic force caused by motion. These forces along the X, Y and Z axes can be analyzed and the orientation of the device can be calculated. We used this orientation value for our instrument.
 
 ![pic of accelerometer wiring](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Musical%20Instrument/testing%20wiring%20for%20accelerometer.jpg)
 ![pic of accelerometer code](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Musical%20Instrument/accelerometer%20code%20working.jpg)
@@ -26,13 +26,14 @@ Then, we wanted to add another sensor that could have other functions than the a
 
 We wired up the force sensor and found a code that would help us integrate it in our circuit:
 
+
+```
 #define FORCE_SENSOR_PIN A0 // the FSR and 10K pulldown are connected to A0
 
 void setup() {
   Serial.begin(9600);
 }
 
-```
 void loop() {
   int analogReading = analogRead(FORCE_SENSOR_PIN);
 
@@ -76,14 +77,14 @@ https://create.arduino.cc/projecthub/glennedi/dc-piezo-buzzer-volume-control-4a2
 ![speaker trying](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Musical%20Instrument/testing%20out%20volume%20code%20with%20a%20speaker.jpg)
 
 
-After many attempts, we ended up using a potentiometer (no code needed) to control the volume of the piezo buzzer.
+After some attempts, we ended up using a potentiometer (no code needed) to control the volume of the piezo buzzer.
 
 Finally, we added a switch (no code, circuit in series), and put all the bits of code together in one and tested it all out.
 
-Future improvements:
-- Adding more force sensors and creating an array of different notes
-- Using an LCD screen to display which notes are playing
--Creating a hand glove or a type of asing to facilitate playing the instrument
+Future Improvements:
+  - Our instrument leaves scope for a lot of improvements due to the fact that we used an accelerometer. THis gives us access to 3 dimensions which will allow us to change pitch, scale, octaves and even different instruments!
+  - Adding more force sensors and developing on that could lead to a 3 dimensional portable piano. This could be fit on a glove to make it a well finished product.
+  - We could also add an LCD screen to the breadboard to let the user know what note they are playing. THis could especially be helpful after making the above improvements since it will allow for more possibilities.
 
 ![done :)](https://github.com/j-da-savage/Introduction-to-Interactive-Media/blob/main/Musical%20Instrument/done.jpg)
 
