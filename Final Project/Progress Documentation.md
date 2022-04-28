@@ -1,3 +1,4 @@
+Complete documentation can be found on: https://github.com/daniaezz/Intro-to-IM-Final-Project
 # Final Project Ideas (18/04/22)
 
 **Idea 1:**
